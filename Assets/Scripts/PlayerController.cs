@@ -46,10 +46,10 @@ public class PlayerController : MonoBehaviour
 
     void SetCountText()
     {
-        countText.text = "Count: " + count.ToString();
+        countText.text = "Collectables obtained: " + count.ToString();
         if (count >= 17)
         {
-            winText.text = "You Win!";
+            winText.text = "You have won!";
         }
     }
 }
